@@ -80,4 +80,11 @@ git clone git@github-company:username/repo_name.git
 
 ##### Use git@Host  = The host you have named in the config
 
+#### After Adding the files setup the config to use the exact github user to perform github actions
+
+```bash
+git config user.name "username"
+git config user.email "email"
+```
+
 # Congratulation you have successfully setup multiple github account access in vscode
